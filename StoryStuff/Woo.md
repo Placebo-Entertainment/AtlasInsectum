@@ -1,0 +1,1 @@
+Nach jahrelanger Ausbeutung, liegt die Natur nun am Boden, zermalmt von Brechern, aufgerissen von Schaufeln und niedergemeht von Sägen, um immer mehr Recurces immer schneller Heranzuschaffen.
