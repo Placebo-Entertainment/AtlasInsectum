@@ -3,16 +3,20 @@
     "tasks": [
         {
             "label": "build",
-            "command": "D:\\Program Files\\GoDot\\Godot_v4.2.1-stable_mono_win64.exe",
-            "type": "process",
+            "command": "dotnet",
+            "type": "shell",
             "args": [
-                "--editor",
-                "--build-solutions",
-                "--path",
-                "${workspaceRoot}",
-                "--headless",
-                "--quit"
+                "build",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
             ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "silent"
+            },
             "problemMatcher": "$msCompile"
         }
     ]

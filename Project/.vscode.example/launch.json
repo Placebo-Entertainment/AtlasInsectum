@@ -1,24 +1,24 @@
 {
-    "version": "0.2.0",
+    "version": "2.0.0",
     "configurations": [
         {
             "name": "Launch",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "D:\\Program Files\\GoDot\\Godot_v4.2.1-stable_mono_win64.exe",
+            "program": "${env:Godot4}",
             "args": [
                 "--path",
                 "${workspaceRoot}"
             ],
-            "stopAtEntry": false,
+            "stopAtEntry": false
         },
         {
             "name": "Launch (Select Scene)",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "D:\\Program Files\\GoDot\\Godot_v4.2.1-stable_mono_win64.exe",
+            "program": "${env:Godot4}",
             "args": [
                 "--path",
                 "${workspaceRoot}",
@@ -45,16 +45,15 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program":"D:\\Program Files\\GoDot\\Godot_v4.2.1-stable_mono_win64.exe",
-            // "program": "env:GODOT4",
+            "program": "${env:Godot4}",
             "args": [
                 "--path",
                 "${workspaceRoot}",
                 "--editor"
             ],
             "stopAtEntry": false,
-            "cwd":"${workspaceFolder}",
-            "console": "internalConsole",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole"
         }
     ]
 }
