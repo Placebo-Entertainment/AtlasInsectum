@@ -9,7 +9,7 @@
 script = ExtResource("1_r0l33")
 
 [node name="CharacterBro" parent="." instance=ExtResource("1_df2i3")]
-position = Vector2(15, 29)
+position = Vector2(110, 108)
 speed = 100
 
 [node name="UI" type="CanvasLayer" parent="."]
