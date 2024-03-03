@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://r8ma5f8u2uc6"]
+
+[ext_resource type="PackedScene" uid="uid://lk35rf2utwdo" path="res://Testing/CharacterBro.tscn" id="1_df2i3"]
+
+[node name="Root" type="Node2D"]
+
+[node name="CharacterBro" parent="." instance=ExtResource("1_df2i3")]
+position = Vector2(15, 29)
+speed = 100

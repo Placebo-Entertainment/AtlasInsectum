@@ -1,9 +1,0 @@
-[gd_scene format=3 uid="uid://r8ma5f8u2uc6"]
-
-[node name="Label" type="Label"]
-offset_left = 434.0
-offset_top = 272.0
-offset_right = 556.0
-offset_bottom = 321.0
-text = "Crazy game dev
-WOOOOO"
