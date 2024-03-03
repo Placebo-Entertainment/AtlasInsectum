@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "D:\\Program Files\\GoDot\\Godot_v4.2.1-stable_mono_win64.exe",
+            "type": "process",
+            "args": [
+                "--editor",
+                "--build-solutions",
+                "--path",
+                "${workspaceRoot}",
+                "--headless",
+                "--quit"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
