@@ -1,10 +1,10 @@
-[gd_scene load_steps=7 format=3 uid="uid://lk35rf2utwdo"]
+[gd_scene load_steps=8 format=3 uid="uid://lk35rf2utwdo"]
 
 [ext_resource type="Script" path="res://Player/PlayerController.cs" id="1_l687p"]
 [ext_resource type="Texture2D" uid="uid://vg36ms37dona" path="res://Player/Test_Dummy_2.png" id="2_2ja31"]
 
 [sub_resource type="Animation" id="Animation_dtbpd"]
-length = 0.6
+length = 0.8
 loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -25,7 +25,7 @@ tracks/1/path = NodePath(".:frame")
 tracks/1/interp = 1
 tracks/1/loop_wrap = false
 tracks/1/keys = {
-"times": PackedFloat32Array(0, 0.3),
+"times": PackedFloat32Array(0, 0.4),
 "transitions": PackedFloat32Array(1, 1),
 "update": 1,
 "values": [0, 1]
@@ -58,9 +58,13 @@ tracks/1/keys = {
 "values": [3, 4, 5, 6, 7, 5, 8, 9, 10, 11]
 }
 
+[sub_resource type="Animation" id="Animation_imfrx"]
+length = 0.001
+
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_fxga3"]
 _data = {
 "Idle": SubResource("Animation_dtbpd"),
+"RESET": SubResource("Animation_imfrx"),
 "Walking": SubResource("Animation_71n3g")
 }
 
