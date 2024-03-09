@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="OceanSpace thing" version="1" revision="0" sampleRate="44100" sampleFormat="5" tempo="70" timesigNumerator="4" timesigDenominator="4">
+    <pool>
+        <audioSources>
+            <audioSource fileName="1 piano_240306-202853_1.wav" sourceFileName="" channelCount="2"/>
+        </audioSources>
+        <trackNameExtensions>
+            <trackNameExtension trackType="0" value="0"/>
+            <trackNameExtension trackType="1" value="0"/>
+            <trackNameExtension trackType="2" value="0"/>
+            <trackNameExtension trackType="3" value="0"/>
+            <trackNameExtension trackType="4" value="0"/>
+        </trackNameExtensions>
+        <blockNameExtensions>
+            <blockNameExtension trackType="0" value="0"/>
+            <blockNameExtension trackType="1" value="0"/>
+            <blockNameExtension trackType="2" value="0"/>
+            <blockNameExtension trackType="3" value="0"/>
+            <blockNameExtension trackType="4" value="0"/>
+        </blockNameExtensions>
+        <blockSourceNameExtension value="2"/>
+        <nextTakeGroupId value="0"/>
+    </pool>
+    <masterTrack name="Master" type="0" armed="0" monitored="0" automationArmed="0" audioUnitsBypass="0" latencyOffset="0" inverse="0">
+        <state>PwAAAD9TMzM.UzMzPwAAAA==</state>
+        <audioUnits/>
+        <automationContainer>
+            <automationTracks>
+                <automationTrack parameterIndex="2" mode="3" enabled="1" defaultValue="0.82499999">
+                    <blocks/>
+                </automationTrack>
+                <automationTrack parameterIndex="3" mode="3" enabled="1" defaultValue="0.5">
+                    <blocks/>
+                </automationTrack>
+            </automationTracks>
+        </automationContainer>
+        <sendsAutomationContainer>
+            <automationTracks/>
+            <state></state>
+        </sendsAutomationContainer>
+        <metaData>
+            <data key="TrackColor" value="#ff91f0"/>
+        </metaData>
+        <audioOutput externalDeviceIndex="-1" channelIndex="-1"/>
+        <track name="# piano" type="3" armed="1" monitored="0" automationArmed="0" audioUnitsBypass="0" latencyOffset="0" inverse="0" channelCount="2" pitchTempoProcessorMode="2" timeStretchEnabled="1">
+            <state>PwAAAD9TMzM.UzMzPwAAAA==</state>
+            <audioUnits/>
+            <automationContainer>
+                <automationTracks>
+                    <automationTrack parameterIndex="0" mode="3" enabled="1" defaultValue="0.5">
+                        <blocks/>
+                    </automationTrack>
+                    <automationTrack parameterIndex="1" mode="3" enabled="1" defaultValue="0.82499999">
+                        <blocks/>
+                    </automationTrack>
+                    <automationTrack parameterIndex="2" mode="3" enabled="1" defaultValue="0.82499999">
+                        <blocks/>
+                    </automationTrack>
+                    <automationTrack parameterIndex="3" mode="3" enabled="1" defaultValue="0.5">
+                        <blocks/>
+                    </automationTrack>
+                </automationTracks>
+            </automationContainer>
+            <sendsAutomationContainer>
+                <automationTracks/>
+                <state></state>
+            </sendsAutomationContainer>
+            <metaData>
+                <data key="TrackAutoArmed" value="true"/>
+                <data key="TrackColor" value="#91ccff"/>
+            </metaData>
+            <audioOutput externalDeviceIndex="-1" channelIndex="-1"/>
+            <crossfades/>
+            <blocks>
+                <block name="1 piano_240306-202853_1.wav" position="88200" framesCount="1225728" groupId="4294967295" muted="0">
+                    <metaData>
+                        <data key="BlockColor" value="#91ccff"/>
+                    </metaData>
+                    <crossfades/>
+                    <events>
+                        <event position="0" positionStart="0" positionEnd="1225728" loopOffset="0" framesCount="1225728" loopEnabled="0" tempo="120" inverse="0" gain="11.555555555555555" fadeInLength="176" fadeOutLength="176" fadeInCurve="4" fadeOutCurve="4" fadeInConvexity="0.5" fadeOutConvexity="0.5" pitch="1" fileName="1 piano_240306-202853_1.wav">
+                            <stretchMarks>
+                                <stretchMark initPosition="0" newPosition="0"/>
+                                <stretchMark initPosition="2101248" newPosition="1225728"/>
+                            </stretchMarks>
+                            <automationBlocks/>
+                            <takes activeIndex="0">
+                                <take index="0" offset="0" framesCount="2101248"/>
+                            </takes>
+                        </event>
+                    </events>
+                </block>
+            </blocks>
+            <audioInput externalDeviceIndex="0" channelIndex="-1"/>
+        </track>
+        <midiMappings/>
+    </masterTrack>
+    <metaData>
+        <data key="SequencerHorizontalZoom" value="24.000000"/>
+        <data key="SequencerTrackControlsWidth" value="220"/>
+        <data key="TrackColor" value="#91fff4"/>
+        <data key="TransportCount" value="false"/>
+        <data key="TransportFollow" value="true"/>
+        <data key="TransportLoop" value="true"/>
+        <data key="TransportMetronome" value="false"/>
+        <data key="TransportPlayPositionL" value="0"/>
+        <data key="TransportPlayPositionR" value="4321800"/>
+        <data key="TransportSnap" value="true"/>
+        <data key="TransportSnapIndex" value="0"/>
+    </metaData>
+    <timeline timeSigNumerator="4" timeSigDenominator="4" tempo="70"/>
+</project>

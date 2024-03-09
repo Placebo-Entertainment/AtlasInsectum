@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="BugBackground Try 1" version="1" revision="0" sampleRate="44100" sampleFormat="5" tempo="70" timesigNumerator="4" timesigDenominator="4">
+    <pool>
+        <audioSources>
+            <audioSource fileName="2 bass_240304-195456_4.wav" sourceFileName="" channelCount="2"/>
+            <audioSource fileName="1 Piano_240304-195822_8.wav" sourceFileName="" channelCount="2"/>
+            <audioSource fileName="2 Rassel_240304-200352_10.wav" sourceFileName="" channelCount="2"/>
+            <audioSource fileName="3 ukulele_240304-200625_12.wav" sourceFileName="" channelCount="2"/>
+        </audioSources>
+        <trackNameExtensions>
+            <trackNameExtension trackType="0" value="0"/>
+            <trackNameExtension trackType="1" value="0"/>
+            <trackNameExtension trackType="2" value="0"/>
+            <trackNameExtension trackType="3" value="0"/>
+            <trackNameExtension trackType="4" value="0"/>
+        </trackNameExtensions>
+        <blockNameExtensions>
+            <blockNameExtension trackType="0" value="0"/>
+            <blockNameExtension trackType="1" value="0"/>
+            <blockNameExtension trackType="2" value="0"/>
+            <blockNameExtension trackType="3" value="0"/>
+            <blockNameExtension trackType="4" value="0"/>
+        </blockNameExtensions>
+        <blockSourceNameExtension value="13"/>
+        <nextTakeGroupId value="0"/>
+    </pool>
+    <masterTrack name="Master" type="0" armed="0" monitored="0" automationArmed="0" audioUnitsBypass="0" latencyOffset="0" inverse="0">
+        <state>PwAAAD9TMzM.TU.fPwAAAA==</state>
+        <audioUnits/>
+        <automationContainer>
+            <automationTracks>
+                <automationTrack parameterIndex="2" mode="3" enabled="1" defaultValue="0.80199999">
+                    <blocks/>
+                </automationTrack>
+                <automationTrack parameterIndex="3" mode="3" enabled="1" defaultValue="0.5">
+                    <blocks/>
+                </automationTrack>
+            </automationTracks>
+        </automationContainer>
+        <sendsAutomationContainer>
+            <automationTracks/>
+            <state></state>
+        </sendsAutomationContainer>
+        <metaData>
+            <data key="TrackColor" value="#ffa091"/>
+        </metaData>
+        <audioOutput externalDeviceIndex="-1" channelIndex="-1"/>
+        <track name="# Piano" type="3" armed="1" monitored="0" automationArmed="0" audioUnitsBypass="0" latencyOffset="0" inverse="0" channelCount="2" pitchTempoProcessorMode="2" timeStretchEnabled="1">
+            <state>PwAAAD9TMzM.UzMzPwAAAA==</state>
+            <audioUnits/>
+            <automationContainer>
+                <automationTracks>
+                    <automationTrack parameterIndex="0" mode="3" enabled="1" defaultValue="0.5">
+                        <blocks/>
+                    </automationTrack>
+                    <automationTrack parameterIndex="1" mode="3" enabled="1" defaultValue="0.82499999">
+                        <blocks/>
+                    </automationTrack>
+                    <automationTrack parameterIndex="2" mode="3" enabled="1" defaultValue="0.82499999">
+                        <blocks/>
+                    </automationTrack>
+                    <automationTrack parameterIndex="3" mode="3" enabled="1" defaultValue="0.5">
+                        <blocks/>
+                    </automationTrack>
+                </automationTracks>
+            </automationContainer>
+            <sendsAutomationContainer>
+                <automationTracks/>
+                <state></state>
+            </sendsAutomationContainer>
+            <metaData>
+                <data key="TrackAutoArmed" value="true"/>
+                <data key="TrackColor" value="#91ffb2"/>
+            </metaData>
+            <audioOutput externalDeviceIndex="-1" channelIndex="-1"/>
+            <crossfades/>
+            <blocks>
+                <block name="1 Piano_240304-195822_8.wav" position="264600" framesCount="1199445" groupId="4294967295" muted="0">
+                    <metaData>
+                        <data key="BlockColor" value="#91ffb2"/>
+                    </metaData>
+                    <crossfades/>
+                    <events>
+                        <event position="0" positionStart="0" positionEnd="1199445" loopOffset="0" framesCount="1199445" loopEnabled="0" tempo="120" inverse="0" gain="11.555555555555557" fadeInLength="176" fadeOutLength="176" fadeInCurve="4" fadeOutCurve="4" fadeInConvexity="0.5" fadeOutConvexity="0.5" pitch="1" fileName="1 Piano_240304-195822_8.wav">
+                            <stretchMarks>
+                                <stretchMark initPosition="0" newPosition="0"/>
+                                <stretchMark initPosition="2056192" newPosition="1199445"/>
+                            </stretchMarks>
+                            <automationBlocks/>
+                            <takes activeIndex="0">
+                                <take index="0" offset="0" framesCount="2056192"/>
+                            </takes>
+                        </event>
+                    </events>
+                </block>
+            </blocks>
+            <audioInput externalDeviceIndex="0" channelIndex="-1"/>
+        </track>
+        <track name="# Rassel" type="3" armed="0" monitored="0" automationArmed="0" audioUnitsBypass="0" latencyOffset="0" inverse="0" channelCount="2" pitchTempoProcessorMode="2" timeStretchEnabled="1">
+            <state>P4AAAD9TMzM.UzMzPwAAAA==</state>
+            <audioUnits/>
+            <automationContainer>
+                <automationTracks>
+                    <automationTrack parameterIndex="0" mode="3" enabled="1" defaultValue="1">
+                        <blocks/>
+                    </automationTrack>
+                    <automationTrack parameterIndex="1" mode="3" enabled="1" defaultValue="0.82499999">
+                        <blocks/>
+                    </automationTrack>
+                    <automationTrack parameterIndex="2" mode="3" enabled="1" defaultValue="0.82499999">
+                        <blocks/>
+                    </automationTrack>
+                    <automationTrack parameterIndex="3" mode="3" enabled="1" defaultValue="0.5">
+                        <blocks/>
+                    </automationTrack>
+                </automationTracks>
+            </automationContainer>
+            <sendsAutomationContainer>
+                <automationTracks/>
+                <state></state>
+            </sendsAutomationContainer>
+            <metaData>
+                <data key="TrackColor" value="#9a91ff"/>
+            </metaData>
+            <audioOutput externalDeviceIndex="-1" channelIndex="-1"/>
+            <crossfades/>
+            <blocks>
+                <block name="2 Rassel_240304-200352_10.wav" position="176400" framesCount="1284267" groupId="4294967295" muted="0">
+                    <metaData>
+                        <data key="BlockColor" value="#9a91ff"/>
+                    </metaData>
+                    <crossfades/>
+                    <events>
+                        <event position="0" positionStart="0" positionEnd="1284267" loopOffset="0" framesCount="1284267" loopEnabled="0" tempo="120" inverse="0" gain="6.2222222222222214" fadeInLength="176" fadeOutLength="176" fadeInCurve="4" fadeOutCurve="4" fadeInConvexity="0.5" fadeOutConvexity="0.5" pitch="1" fileName="2 Rassel_240304-200352_10.wav">
+                            <stretchMarks>
+                                <stretchMark initPosition="0" newPosition="0"/>
+                                <stretchMark initPosition="2201600" newPosition="1284267"/>
+                            </stretchMarks>
+                            <automationBlocks/>
+                            <takes activeIndex="0">
+                                <take index="0" offset="0" framesCount="2201600"/>
+                            </takes>
+                        </event>
+                    </events>
+                </block>
+            </blocks>
+            <audioInput externalDeviceIndex="0" channelIndex="-1"/>
+        </track>
+        <track name="# ukulele" type="3" armed="0" monitored="0" automationArmed="0" audioUnitsBypass="0" latencyOffset="0" inverse="0" channelCount="2" pitchTempoProcessorMode="2" timeStretchEnabled="1">
+            <state>PwAAAD9TMzM.UzMzPwAAAA==</state>
+            <audioUnits/>
+            <automationContainer>
+                <automationTracks>
+                    <automationTrack parameterIndex="0" mode="3" enabled="1" defaultValue="0.5">
+                        <blocks/>
+                    </automationTrack>
+                    <automationTrack parameterIndex="1" mode="3" enabled="1" defaultValue="0.82499999">
+                        <blocks/>
+                    </automationTrack>
+                    <automationTrack parameterIndex="2" mode="3" enabled="1" defaultValue="0.82499999">
+                        <blocks/>
+                    </automationTrack>
+                    <automationTrack parameterIndex="3" mode="3" enabled="1" defaultValue="0.5">
+                        <blocks/>
+                    </automationTrack>
+                </automationTracks>
+            </automationContainer>
+            <sendsAutomationContainer>
+                <automationTracks/>
+                <state></state>
+            </sendsAutomationContainer>
+            <metaData>
+                <data key="TrackColor" value="#91fff6"/>
+            </metaData>
+            <audioOutput externalDeviceIndex="-1" channelIndex="-1"/>
+            <crossfades/>
+            <blocks>
+                <block name="3 ukulele_240304-200625_12.wav" position="264600" framesCount="1229312" groupId="4294967295" muted="0">
+                    <metaData>
+                        <data key="BlockColor" value="#91fff6"/>
+                    </metaData>
+                    <crossfades/>
+                    <events>
+                        <event position="0" positionStart="0" positionEnd="1229312" loopOffset="0" framesCount="1229312" loopEnabled="0" tempo="120" inverse="0" gain="7.1111111111111116" fadeInLength="176" fadeOutLength="176" fadeInCurve="4" fadeOutCurve="4" fadeInConvexity="0.5" fadeOutConvexity="0.5" pitch="1" fileName="3 ukulele_240304-200625_12.wav">
+                            <stretchMarks>
+                                <stretchMark initPosition="0" newPosition="0"/>
+                                <stretchMark initPosition="2107392" newPosition="1229312"/>
+                            </stretchMarks>
+                            <automationBlocks/>
+                            <takes activeIndex="0">
+                                <take index="0" offset="0" framesCount="2107392"/>
+                            </takes>
+                        </event>
+                    </events>
+                </block>
+            </blocks>
+            <audioInput externalDeviceIndex="0" channelIndex="-1"/>
+        </track>
+        <track name="# bass" type="3" armed="0" monitored="0" automationArmed="0" audioUnitsBypass="0" latencyOffset="0" inverse="0" channelCount="2" pitchTempoProcessorMode="2" timeStretchEnabled="1">
+            <state>PwAAAD9TMzM.UzMzPwAAAA==</state>
+            <audioUnits/>
+            <automationContainer>
+                <automationTracks>
+                    <automationTrack parameterIndex="0" mode="3" enabled="1" defaultValue="0.5">
+                        <blocks/>
+                    </automationTrack>
+                    <automationTrack parameterIndex="1" mode="3" enabled="1" defaultValue="0.82499999">
+                        <blocks/>
+                    </automationTrack>
+                    <automationTrack parameterIndex="2" mode="3" enabled="1" defaultValue="0.82499999">
+                        <blocks/>
+                    </automationTrack>
+                    <automationTrack parameterIndex="3" mode="3" enabled="1" defaultValue="0.5">
+                        <blocks/>
+                    </automationTrack>
+                </automationTracks>
+            </automationContainer>
+            <sendsAutomationContainer>
+                <automationTracks/>
+                <state></state>
+            </sendsAutomationContainer>
+            <metaData>
+                <data key="TrackColor" value="#ff91f4"/>
+            </metaData>
+            <audioOutput externalDeviceIndex="-1" channelIndex="-1"/>
+            <crossfades/>
+            <blocks>
+                <block name="2 bass_240304-195456_4.wav" position="88200" framesCount="1327275" groupId="4294967295" muted="0">
+                    <metaData>
+                        <data key="BlockColor" value="#ff91f4"/>
+                    </metaData>
+                    <crossfades/>
+                    <events>
+                        <event position="0" positionStart="0" positionEnd="1327275" loopOffset="0" framesCount="1327275" loopEnabled="0" tempo="120" inverse="0" gain="7.9999999999999982" fadeInLength="176" fadeOutLength="176" fadeInCurve="4" fadeOutCurve="4" fadeInConvexity="0.5" fadeOutConvexity="0.5" pitch="1" fileName="2 bass_240304-195456_4.wav">
+                            <stretchMarks>
+                                <stretchMark initPosition="0" newPosition="0"/>
+                                <stretchMark initPosition="2275328" newPosition="1327275"/>
+                            </stretchMarks>
+                            <automationBlocks/>
+                            <takes activeIndex="0">
+                                <take index="0" offset="0" framesCount="2275328"/>
+                            </takes>
+                        </event>
+                    </events>
+                </block>
+            </blocks>
+            <audioInput externalDeviceIndex="0" channelIndex="-1"/>
+        </track>
+        <midiMappings/>
+    </masterTrack>
+    <metaData>
+        <data key="SequencerHorizontalZoom" value="24.000000"/>
+        <data key="SequencerTrackControlsWidth" value="220"/>
+        <data key="TrackColor" value="#c491ff"/>
+        <data key="TransportCount" value="false"/>
+        <data key="TransportFollow" value="true"/>
+        <data key="TransportLoop" value="true"/>
+        <data key="TransportMetronome" value="false"/>
+        <data key="TransportPlayPositionL" value="0"/>
+        <data key="TransportPlayPositionR" value="3969000"/>
+        <data key="TransportSnap" value="true"/>
+        <data key="TransportSnapIndex" value="0"/>
+    </metaData>
+    <timeline timeSigNumerator="4" timeSigDenominator="4" tempo="70"/>
+</project>
