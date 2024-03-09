@@ -1,15 +1,11 @@
-[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://dhy3ava4s4qxx"]
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3 uid="uid://dbtp5mgewiady"]
 
-[ext_resource type="Script" path="res://Testing/InvTest/inventory/item_data.gd" id="1_dep2x"]
-[ext_resource type="Texture2D" uid="uid://b6t0hk8oficpy" path="res://Testing/InvTest/Test_Dummy_1.png" id="2_atqqw"]
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_wt0af"]
-atlas = ExtResource("2_atqqw")
-region = Rect2(0, 0, 32, 32)
+[ext_resource type="Texture2D" uid="uid://cr7kbfa4jgg6a" path="res://Testing/InvTest/Items.tres" id="1_nnf1t"]
+[ext_resource type="Script" path="res://Testing/InvTest/inventory/ItemData.cs" id="1_uoltk"]
 
 [resource]
-script = ExtResource("1_dep2x")
-name = "Corpse"
-description = "Oh no its your own corpse."
-stack_size = 10
-texture = SubResource("AtlasTexture_wt0af")
+script = ExtResource("1_uoltk")
+Name = "Corpse"
+Description = "Its your corpse :/"
+Stack_size = 10
+Texture = ExtResource("1_nnf1t")

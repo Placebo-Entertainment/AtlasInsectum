@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="InventoryData" load_steps=6 format=3 uid="uid://b4v6ottiqk7ji"]
+
+[ext_resource type="Script" path="res://Testing/InvTest/inventory/InventoryData.cs" id="1_sfdu5"]
+[ext_resource type="Resource" uid="uid://dbtp5mgewiady" path="res://Testing/InvTest/items/Corpse.tres" id="2_uec7s"]
+[ext_resource type="Script" path="res://Testing/InvTest/inventory/SlotData.cs" id="3_coq56"]
+
+[sub_resource type="Resource" id="Resource_hih3x"]
+script = ExtResource("3_coq56")
+item_data = ExtResource("2_uec7s")
+quantity = 5
+
+[sub_resource type="Resource" id="Resource_y4xkq"]
+script = ExtResource("3_coq56")
+item_data = ExtResource("2_uec7s")
+quantity = 99
+
+[resource]
+script = ExtResource("1_sfdu5")
+slot_datas = [null, null, SubResource("Resource_hih3x"), SubResource("Resource_y4xkq"), null, null, null, null, null, null, null, null, null, null, null]

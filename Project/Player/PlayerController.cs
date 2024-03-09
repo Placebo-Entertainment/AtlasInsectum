@@ -12,6 +12,9 @@ public partial class PlayerController : CharacterBody2D
 	[Export(PropertyHint.Range, "100,800,10")]
 	public float MaxSpeed;
 
+	[Export(PropertyHint.None)]
+	public InventoryData inventoryData;
+
 	[Signal]
 	public delegate void ToggleInventoryEventHandler();
 

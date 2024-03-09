@@ -1,10 +1,11 @@
-[gd_scene load_steps=8 format=3 uid="uid://oacejakuvfm4"]
+[gd_scene load_steps=9 format=3 uid="uid://oacejakuvfm4"]
 
 [ext_resource type="PackedScene" uid="uid://lk35rf2utwdo" path="res://Player/Player.tscn" id="1_df2i3"]
-[ext_resource type="Script" path="res://Testing/main.gd" id="1_r0l33"]
+[ext_resource type="Script" path="res://Testing/Main.cs" id="1_x57jt"]
 [ext_resource type="Texture2D" uid="uid://dswn262sb2te1" path="res://Sprites/Tileset.png" id="2_6h1mn"]
-[ext_resource type="PackedScene" uid="uid://d221tdm0vlxj7" path="res://Testing/InvTest/inventory/inventory.tscn" id="2_sb4ax"]
-[ext_resource type="Script" path="res://Testing/InvTest/inventory/inventory_interface.gd" id="3_kl7u2"]
+[ext_resource type="PackedScene" uid="uid://d221tdm0vlxj7" path="res://Testing/InvTest/inventory/Inventory.tscn" id="2_sb4ax"]
+[ext_resource type="Script" path="res://Testing/InvTest/inventory/InventoryInterface.cs" id="3_kl7u2"]
+[ext_resource type="Resource" uid="uid://b4v6ottiqk7ji" path="res://Testing/InvTest/TestInv.tres" id="4_8kjp6"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ehq6a"]
 texture = ExtResource("2_6h1mn")
@@ -54,7 +55,7 @@ texture = ExtResource("2_6h1mn")
 sources/0 = SubResource("TileSetAtlasSource_ehq6a")
 
 [node name="Root" type="Node2D"]
-script = ExtResource("1_r0l33")
+script = ExtResource("1_x57jt")
 
 [node name="TileMap" type="TileMap" parent="."]
 scale = Vector2(4, 4)
@@ -68,6 +69,7 @@ scale = Vector2(0.5, 0.5)
 Acceleration = 5165.0
 Deceleration = 3590.0
 MaxSpeed = 330.0
+inventoryData = ExtResource("4_8kjp6")
 
 [node name="UI" type="CanvasLayer" parent="."]
 
