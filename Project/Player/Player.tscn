@@ -1,7 +1,8 @@
-[gd_scene load_steps=8 format=3 uid="uid://lk35rf2utwdo"]
+[gd_scene load_steps=9 format=3 uid="uid://lk35rf2utwdo"]
 
 [ext_resource type="Script" path="res://Player/PlayerController.cs" id="1_l687p"]
 [ext_resource type="Texture2D" uid="uid://vg36ms37dona" path="res://Player/Test_Dummy_2.png" id="2_2ja31"]
+[ext_resource type="Script" path="res://Player/CameraPivot.cs" id="3_rdykm"]
 
 [sub_resource type="Animation" id="Animation_dtbpd"]
 length = 0.8
@@ -31,7 +32,11 @@ tracks/1/keys = {
 "values": [0, 1]
 }
 
+[sub_resource type="Animation" id="Animation_imfrx"]
+length = 0.001
+
 [sub_resource type="Animation" id="Animation_71n3g"]
+resource_name = "Walk"
 loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -58,14 +63,11 @@ tracks/1/keys = {
 "values": [3, 4, 5, 6, 7, 5, 8, 9, 10, 11]
 }
 
-[sub_resource type="Animation" id="Animation_imfrx"]
-length = 0.001
-
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_fxga3"]
 _data = {
 "Idle": SubResource("Animation_dtbpd"),
 "RESET": SubResource("Animation_imfrx"),
-"Walking": SubResource("Animation_71n3g")
+"Walk": SubResource("Animation_71n3g")
 }
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vblvv"]
@@ -85,7 +87,6 @@ scale = Vector2(4, 4)
 texture = ExtResource("2_2ja31")
 hframes = 4
 vframes = 3
-frame = 1
 metadata/_aseprite_wizard_config_ = {
 "i_mode": -1,
 "keep_anim_length": false,
@@ -114,3 +115,22 @@ libraries = {
 visible = false
 position = Vector2(0, 1)
 shape = SubResource("RectangleShape2D_vblvv")
+
+[node name="CameraPivot" type="Node2D" parent="."]
+script = ExtResource("3_rdykm")
+
+[node name="CameraOffset" type="Node2D" parent="CameraPivot"]
+position = Vector2(173, 0)
+
+[node name="Camera2D" type="Camera2D" parent="CameraPivot/CameraOffset"]
+process_callback = 0
+position_smoothing_enabled = true
+position_smoothing_speed = 3.0
+rotation_smoothing_speed = 20.0
+drag_horizontal_enabled = true
+drag_vertical_enabled = true
+drag_left_margin = 0.15
+drag_top_margin = 0.3
+drag_right_margin = 0.15
+drag_bottom_margin = 0.3
+editor_draw_screen = false

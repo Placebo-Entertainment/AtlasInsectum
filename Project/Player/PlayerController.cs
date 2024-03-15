@@ -12,6 +12,8 @@ public partial class PlayerController : CharacterBody2D
 	[Export(PropertyHint.Range, "100,800,10")]
 	public float MaxSpeed;
 
+	public Vector2 Direction;
+
 	[Signal]
 	public delegate void ToggleInventoryEventHandler();
 
@@ -30,33 +32,33 @@ public partial class PlayerController : CharacterBody2D
 	{
 		var fDelta = (float)delta;
 
-		var direction = Vector2.Zero;
+		Direction = Vector2.Zero;
 
 		if (Input.IsActionPressed("move_left"))
 		{
-			direction.X -= 1.0f;
+			Direction.X -= 1.0f;
 		}
 
 		if (Input.IsActionPressed("move_right"))
 		{
-			direction.X += 1.0f;
+			Direction.X += 1.0f;
 		}
 
 		if (Input.IsActionPressed("move_up"))
 		{
-			direction.Y -= 1.0f;
+			Direction.Y -= 1.0f;
 		}
 
 		if (Input.IsActionPressed("move_down"))
 		{
-			direction.Y += 1.0f;
+			Direction.Y += 1.0f;
 		}
 
-		if (direction != Vector2.Zero)
+		if (Direction != Vector2.Zero)
 		{
-			direction = direction.Normalized();
+			Direction = Direction.Normalized();
 
-			var accelerationVector = direction * Acceleration * fDelta;
+			var accelerationVector = Direction * Acceleration * fDelta;
 
 			var speed = Velocity + accelerationVector;
 
